@@ -102,7 +102,7 @@ const Chat = () => {
           id="scroll"
           className="border-zinc-600 border overflow-y-scroll mt-3 font-bold px-2 py-0.5 text-lg rounded flex-grow"
         >
-          {chatHistory.reverse().map((chatItem, _index, array) => (
+          {chatHistory.slice().reverse().map((chatItem, _index, array) => (
             <div
               key={_index}
               className="flex w-full items-center justify-center"
