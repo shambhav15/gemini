@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+  @apply  border-zinc-800 bg-[#c7c7cb] text-black border font-bold px-2 text-lg rounded-lg font-sans hover:bg-zinc-500 transition-all duration-500;
+}
+
+
+.input-container{
+  @apply  flex items-center w-full border-zinc-800 border rounded-2xl shadow-lg shadow-zinc-700 p-2;
+}
